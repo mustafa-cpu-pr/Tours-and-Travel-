@@ -1,2 +1,2 @@
 # tours
- mern project for sem5
+ mern stack project for sem5
