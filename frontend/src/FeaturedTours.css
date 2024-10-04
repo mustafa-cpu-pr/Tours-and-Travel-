@@ -1,0 +1,34 @@
+/* FeaturedTours.css */
+
+.featured-tours {
+  padding: 40px 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  text-align: center;
+}
+
+.featured-tours h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.tour-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Space between tour cards */
+  max-width: 1200px;
+  margin: 0 auto; /* Center the tour list */
+}
+
+@media (max-width: 768px) {
+  .tour-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tour-card {
+    width: 90%; /* Full width on smaller screens */
+  }
+}
